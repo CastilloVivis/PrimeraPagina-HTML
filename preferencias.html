@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Primera pagina Web/imagenes/mascota.png" type="image/x-icon">
+    <title>Puppy</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: coral;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #723232;
+        }
+
+        .active {
+            background-color:crimson;
+        }
+
+        h1 {
+            background-color: peachpuff;
+            padding: 10px;
+            margin: 0;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: pink;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Preferencias</h1>
+        
+        <nav>
+            <ul>
+            <li><a href="index.html"><i>Home</i></a></li>
+            <li class="active"><a href="preferencias.html"><i>Preferencias</i></a></li>
+            <li><a href="galeria.html"><i>Galería</i></a></li>
+            <li><a href="contacto.html"><i>Contacto</i></a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Preferencias de Puppy </h2>
+    <hr
+    
+    <div>
+            <table>
+                <colgroup>
+                    <col style="background-color: palevioletred;">
+                    <col>
+                    <col>
+                    <col>
+                </colgroup>
+                <th></th>
+                <th>Alimento</th>
+                <th>Juguetes</th>
+                <th>Actividades</th>
+
+                <tr>
+                    <td></td>
+                    <td>Alimento</td>
+                    <td>Hueso de goma</td>
+                    <td>Morder suave y salir corriendo</td>
+                   
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>Galletas</td>
+                    <td>Palo</td>
+                    <td>Agarrar medias</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>Cualquier cosa que sea comida</td>
+                    <td></td>
+                    <td>Rascar el jardín</td>
+                </tr>
+            </table>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+
+</html>

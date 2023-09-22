@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Primera pagina Web/imagenes/mascota.png" type="image/x-icon">
+    <title>Puppy</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:coral;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color:crimson;
+        }
+
+        h1 {
+            background-color:peachpuff;
+            padding: 10px;
+            margin: 0;
+            color: white;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: pink;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Puppy galeria</h1>
+        
+        <nav>
+            <ul>
+            <li><a href="index.html"><i>Home</i></a></li>
+            <li><a href="preferencias.html"><i>Preferencias</i></a></li>
+            <li class="active"><a href="galeria.html"><i>Galería</i></a></li>
+            <li><a href="contacto.html"><i>Contacto</i></a></li> 
+            </ul>
+        </nav>
+    </header>
+  
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/Primera pagina Web/imagenes/WhatsApp Image 2023-09-12 at 11.09.10.jpg" target="_blank"><img src="/Primera pagina Web/imagenes/WhatsApp Image 2023-09-12 at 11.09.10.jpg" width="300px" alt="imagen"></a>
+             
+            <div class="desc">Puppy recien llegado</div>
+            </div>
+            
+          
+        <div class="gallery">
+            <a href="/Primera pagina Web/imagenes/1000067704.jpg" target="_blank"><img src="/Primera pagina Web/imagenes/1000067704.jpg"width="300px"  alt="imagen3"></a>
+            
+            <div class="desc">Puppy un dia en el parque</div>
+        </div>    
+   
+        <div class="gallery">
+            <a href="/Primera pagina Web/imagenes/1000065660.jpg" target="_blank"><img src="/Primera pagina Web/imagenes/1000065660.jpg" width="300px" alt=" imagen4"></a>
+            
+            <div class="desc">Durmiendo atascado en una mesa</div>
+        </div>
+    
+        <div class="gallery">
+            <a href="/Primera pagina Web/imagenes/1000060994.jpg"  target="_blank"><img src="/Primera pagina Web/imagenes/1000060994.jpg"width="300px"  alt="imagen5"</a>
+            
+        
+        <div class="desc"> En una competencia del perro mas lindo</div>
+        </div>
+
+    
+
+    </section>
+    
+        
+    
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
